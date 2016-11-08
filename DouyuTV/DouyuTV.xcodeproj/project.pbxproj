@@ -7,29 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5611A1191DD1713600152FB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5611A1181DD1713600152FB5 /* main.m */; };
-		5611A11C1DD1713600152FB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5611A11B1DD1713600152FB5 /* AppDelegate.m */; };
-		5611A11F1DD1713600152FB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5611A11E1DD1713600152FB5 /* ViewController.m */; };
-		5611A1221DD1713600152FB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5611A1201DD1713600152FB5 /* Main.storyboard */; };
-		5611A1241DD1713600152FB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5611A1231DD1713600152FB5 /* Assets.xcassets */; };
-		5611A1271DD1713600152FB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5611A1251DD1713600152FB5 /* LaunchScreen.storyboard */; };
+		5611A13B1DD1779300152FB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5611A13A1DD1779300152FB5 /* AppDelegate.swift */; };
+		5611A13D1DD1779300152FB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5611A13C1DD1779300152FB5 /* ViewController.swift */; };
+		5611A1401DD1779300152FB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5611A13E1DD1779300152FB5 /* Main.storyboard */; };
+		5611A1421DD1779300152FB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5611A1411DD1779300152FB5 /* Assets.xcassets */; };
+		5611A1451DD1779300152FB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5611A1431DD1779300152FB5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5611A1141DD1713600152FB5 /* YxdDouyu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YxdDouyu.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5611A1181DD1713600152FB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5611A11A1DD1713600152FB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5611A11B1DD1713600152FB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5611A11D1DD1713600152FB5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5611A11E1DD1713600152FB5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5611A1211DD1713600152FB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5611A1231DD1713600152FB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5611A1261DD1713600152FB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5611A1281DD1713600152FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5611A1371DD1779300152FB5 /* DouyuTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouyuTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5611A13A1DD1779300152FB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5611A13C1DD1779300152FB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5611A13F1DD1779300152FB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5611A1411DD1779300152FB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5611A1441DD1779300152FB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5611A1461DD1779300152FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5611A1111DD1713600152FB5 /* Frameworks */ = {
+		5611A1341DD1779300152FB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,82 +35,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5611A10B1DD1713600152FB5 = {
+		5611A12E1DD1779300152FB5 = {
 			isa = PBXGroup;
 			children = (
-				5611A1161DD1713600152FB5 /* YxdDouyu */,
-				5611A1151DD1713600152FB5 /* Products */,
+				5611A1391DD1779300152FB5 /* DouyuTV */,
+				5611A1381DD1779300152FB5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5611A1151DD1713600152FB5 /* Products */ = {
+		5611A1381DD1779300152FB5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5611A1141DD1713600152FB5 /* YxdDouyu.app */,
+				5611A1371DD1779300152FB5 /* DouyuTV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5611A1161DD1713600152FB5 /* YxdDouyu */ = {
+		5611A1391DD1779300152FB5 /* DouyuTV */ = {
 			isa = PBXGroup;
 			children = (
-				5611A11A1DD1713600152FB5 /* AppDelegate.h */,
-				5611A11B1DD1713600152FB5 /* AppDelegate.m */,
-				5611A11D1DD1713600152FB5 /* ViewController.h */,
-				5611A11E1DD1713600152FB5 /* ViewController.m */,
-				5611A1201DD1713600152FB5 /* Main.storyboard */,
-				5611A1231DD1713600152FB5 /* Assets.xcassets */,
-				5611A1251DD1713600152FB5 /* LaunchScreen.storyboard */,
-				5611A1281DD1713600152FB5 /* Info.plist */,
-				5611A1171DD1713600152FB5 /* Supporting Files */,
+				5611A13A1DD1779300152FB5 /* AppDelegate.swift */,
+				5611A13C1DD1779300152FB5 /* ViewController.swift */,
+				5611A13E1DD1779300152FB5 /* Main.storyboard */,
+				5611A1411DD1779300152FB5 /* Assets.xcassets */,
+				5611A1431DD1779300152FB5 /* LaunchScreen.storyboard */,
+				5611A1461DD1779300152FB5 /* Info.plist */,
 			);
-			path = YxdDouyu;
-			sourceTree = "<group>";
-		};
-		5611A1171DD1713600152FB5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5611A1181DD1713600152FB5 /* main.m */,
-			);
-			name = "Supporting Files";
+			path = DouyuTV;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5611A1131DD1713600152FB5 /* YxdDouyu */ = {
+		5611A1361DD1779300152FB5 /* DouyuTV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5611A12B1DD1713600152FB5 /* Build configuration list for PBXNativeTarget "YxdDouyu" */;
+			buildConfigurationList = 5611A1491DD1779300152FB5 /* Build configuration list for PBXNativeTarget "DouyuTV" */;
 			buildPhases = (
-				5611A1101DD1713600152FB5 /* Sources */,
-				5611A1111DD1713600152FB5 /* Frameworks */,
-				5611A1121DD1713600152FB5 /* Resources */,
+				5611A1331DD1779300152FB5 /* Sources */,
+				5611A1341DD1779300152FB5 /* Frameworks */,
+				5611A1351DD1779300152FB5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = YxdDouyu;
-			productName = YxdDouyu;
-			productReference = 5611A1141DD1713600152FB5 /* YxdDouyu.app */;
+			name = DouyuTV;
+			productName = DouyuTV;
+			productReference = 5611A1371DD1779300152FB5 /* DouyuTV.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5611A10C1DD1713600152FB5 /* Project object */ = {
+		5611A12F1DD1779300152FB5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = tuanshang;
 				TargetAttributes = {
-					5611A1131DD1713600152FB5 = {
+					5611A1361DD1779300152FB5 = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 5611A10F1DD1713600152FB5 /* Build configuration list for PBXProject "YxdDouyu" */;
+			buildConfigurationList = 5611A1321DD1779300152FB5 /* Build configuration list for PBXProject "DouyuTV" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -122,55 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 5611A10B1DD1713600152FB5;
-			productRefGroup = 5611A1151DD1713600152FB5 /* Products */;
+			mainGroup = 5611A12E1DD1779300152FB5;
+			productRefGroup = 5611A1381DD1779300152FB5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5611A1131DD1713600152FB5 /* YxdDouyu */,
+				5611A1361DD1779300152FB5 /* DouyuTV */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5611A1121DD1713600152FB5 /* Resources */ = {
+		5611A1351DD1779300152FB5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5611A1271DD1713600152FB5 /* LaunchScreen.storyboard in Resources */,
-				5611A1241DD1713600152FB5 /* Assets.xcassets in Resources */,
-				5611A1221DD1713600152FB5 /* Main.storyboard in Resources */,
+				5611A1451DD1779300152FB5 /* LaunchScreen.storyboard in Resources */,
+				5611A1421DD1779300152FB5 /* Assets.xcassets in Resources */,
+				5611A1401DD1779300152FB5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5611A1101DD1713600152FB5 /* Sources */ = {
+		5611A1331DD1779300152FB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5611A11F1DD1713600152FB5 /* ViewController.m in Sources */,
-				5611A11C1DD1713600152FB5 /* AppDelegate.m in Sources */,
-				5611A1191DD1713600152FB5 /* main.m in Sources */,
+				5611A13D1DD1779300152FB5 /* ViewController.swift in Sources */,
+				5611A13B1DD1779300152FB5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5611A1201DD1713600152FB5 /* Main.storyboard */ = {
+		5611A13E1DD1779300152FB5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5611A1211DD1713600152FB5 /* Base */,
+				5611A13F1DD1779300152FB5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5611A1251DD1713600152FB5 /* LaunchScreen.storyboard */ = {
+		5611A1431DD1779300152FB5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5611A1261DD1713600152FB5 /* Base */,
+				5611A1441DD1779300152FB5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -178,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5611A1291DD1713600152FB5 /* Debug */ = {
+		5611A1471DD1779300152FB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,10 +207,12 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		5611A12A1DD1713600152FB5 /* Release */ = {
+		5611A1481DD1779300152FB5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,53 +249,56 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		5611A12C1DD1713600152FB5 /* Debug */ = {
+		5611A14A1DD1779300152FB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = YxdDouyu/Info.plist;
+				INFOPLIST_FILE = DouyuTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tuanshang.yxd.YxdDouyu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuanshang.yxd.DouyuTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		5611A12D1DD1713600152FB5 /* Release */ = {
+		5611A14B1DD1779300152FB5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = YxdDouyu/Info.plist;
+				INFOPLIST_FILE = DouyuTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tuanshang.yxd.YxdDouyu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuanshang.yxd.DouyuTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5611A10F1DD1713600152FB5 /* Build configuration list for PBXProject "YxdDouyu" */ = {
+		5611A1321DD1779300152FB5 /* Build configuration list for PBXProject "DouyuTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5611A1291DD1713600152FB5 /* Debug */,
-				5611A12A1DD1713600152FB5 /* Release */,
+				5611A1471DD1779300152FB5 /* Debug */,
+				5611A1481DD1779300152FB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5611A12B1DD1713600152FB5 /* Build configuration list for PBXNativeTarget "YxdDouyu" */ = {
+		5611A1491DD1779300152FB5 /* Build configuration list for PBXNativeTarget "DouyuTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5611A12C1DD1713600152FB5 /* Debug */,
-				5611A12D1DD1713600152FB5 /* Release */,
+				5611A14A1DD1779300152FB5 /* Debug */,
+				5611A14B1DD1779300152FB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5611A10C1DD1713600152FB5 /* Project object */;
+	rootObject = 5611A12F1DD1779300152FB5 /* Project object */;
 }
