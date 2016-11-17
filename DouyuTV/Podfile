@@ -1,0 +1,13 @@
+platform :ios, '8.0'
+
+use_frameworks!
+
+# Import CocoaPods sources
+source 'https://github.com/CocoaPods/Specs.git'
+
+target ‘DouyuTV’ do
+
+   pod 'Alamofire'
+   pod 'Kingfisher'
+   pod 'SnapKit'
+end
